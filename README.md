@@ -94,9 +94,7 @@ As stated in [`LICENSE.txt`](https://github.com/InterDigitalInc/UnderPressure/bl
 @Article{MourotUnderPressure2022,
     title   = {UnderPressure: Deep Learning of Foot Contacts and Forces for Character Animation},
     author  = {Lucas Mourot and Ludovic Hoyet and François Le Clerc and Pierre Hellier},
-    journal = {},
-    volume  = {},
-    year    = {},
+    year    = {2022},
 }
 ```
 
