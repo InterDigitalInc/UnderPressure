@@ -64,6 +64,13 @@ def lerp_select(tensor, /, dim: int, indices, interpolation_fn=torch.lerp):
 	weight = indices.fmod(1).view([-1 if s == tensor.shape[dim] else 1 for s in tensor.shape])
 	return interpolation_fn(start, stop, weight)
 
+def resample(tensor, /, nframes, dim=0, interpolation_fn=torch.lerp):
+	if tensor.shape[dim] == nframes:
+		return tensor
+	else:
+		indices = torch.arange(nframes).to(tensor) * (tensor.shape[dim] - 1) / (nframes - 1)
+		return lerp_select(tensor, dim, indices, interpolation_fn=interpolation_fn)
+
 def histmax(tensor, /, bins=None, xmin=float("-inf"), xmax=float("inf"), weight=None):
 	if bins is None:
 		bins = ((tensor >= xmin) & (tensor <= xmax)).sum().item() // 10

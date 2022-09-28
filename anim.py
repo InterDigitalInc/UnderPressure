@@ -148,4 +148,5 @@ def FK(angles: torch.Tensor, skeleton: torch.Tensor, trajectory: torch.Tensor, t
 	for j, p in topology.hierarchy(indices=True):
 		parent, joint = output[..., p, :,:], output[..., j, :,:]
 		output[..., j, :,:] = util.HMat.compose(joint.clone(), parent.clone())
-	return util.HMat.tvec(output) + trajectory
+	positions = util.HMat.tvec(output)
+	return positions if trajectory is None else (positions + trajectory)
