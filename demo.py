@@ -156,7 +156,7 @@ if __name__ == "__main__":
 	parser_contacts.add_argument("-seq", "-sequence", default="*", help="Sequence to be selected; default: *")
 	
 	parser_contacts_from_amass = subparsers.add_parser("contacts_from_amass")
-	parser_contacts_from_amass.add_argument("-path", default="*", help="Path from which loading joint positions")
+	parser_contacts_from_amass.add_argument("-path", help="Path from which loading joint positions")
 	parser_contacts_from_amass.add_argument("-framerate", type=float, help="Input framerate")
 	parser_contacts_from_amass.add_argument("-skeleton", type=int, default=0, help="Index of the skeleton; default: 0")
 	
