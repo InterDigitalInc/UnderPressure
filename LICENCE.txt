@@ -16,7 +16,6 @@ This License governs the download and use of the Software (as defined below). Yo
 	• Redistribute the Open Source Software under the same license/distribution terms as those contained in the open source or free software license under which it was originally released; and/or
 	• Release to the public, disclose or otherwise make available the source code of the Open Source Software.
 For purposes of this License, by means of example and without limitation, any software that is released or distributed under any of the following licenses shall be qualified as Open Source Software: (i) GNU General Public License (GPL); (ii) GNU Lesser/Library GPL (LGPL); (iii) the Artistic License; (iv) the Mozilla Public License; (v) the Common Public License; (vi) the Sun Community Source License (SCSL); (vii) the Sun Industry Standards Source License (SISSL); (viii) BSD License; (ix) MIT License; (x) Apache Software License; (xi) Open SSL License; (xii) IBM Public License; and (xiii) Open Software License.
-“Software” means the Software with which this license was downloaded, namely TBC in object code.
 “Software” means the Software with which this license was downloaded, namely UnderPressure, a software for ground reaction forces estimation and foot contact detection from motion.
 
 	Article 2. License

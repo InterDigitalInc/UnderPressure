@@ -92,13 +92,18 @@ Footskate cleaning example visualization:
 As stated in [`LICENSE.txt`](https://github.com/InterDigitalInc/UnderPressure/blob/main/LICENCE.txt), any publication resulting from the use of this work shall properly cite the latest publication of our work, which currently is:
 ```
 @Article{
-	Mourot22,
-	author=		{Mourot, Lucas and Hoyet, Ludovic and Le Clerc, Fran{\c{c}}ois and Hellier, Pierre},
-	title= 		{UnderPressure: Deep Learning of Foot Contacts and Forces for Character Animation},
-	year=		{2022},
-	eprint=		{2208.04598},
-	doi=		{10.48550/arXiv.2208.04598},
-	note=		{To be published in proceedings of Symposium on Computer Animation (SCA).},
+    Mourot22,
+    author=        {Mourot, Lucas and Hoyet, Ludovic and Le Clerc, Fran{\c{c}}ois and Hellier, Pierre},
+    title=         {UnderPressure: Deep Learning for Foot Contact Detection, Ground Reaction Force Estimation and Footskate Cleanup},
+    year=          2022,
+    month=         dec,
+    publisher=     {Wiley Online Library},
+    journal=       {Computer Graphics Forum},
+    volume=        {41},
+    number=        {8},
+    pages=         {195-206},
+    numpages=      {14},
+    doi=           {10.1111/cgf.14635}
 }
 ```
 
